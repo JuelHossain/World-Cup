@@ -1,0 +1,49 @@
+.hero {
+  display: flex;
+  background-color: rgb(15, 14, 14);
+  border-radius: 35px;
+  padding: 35px 35px 0;
+  transition: background-color 1s linear 1s;
+}
+.hero:hover {
+  background-color: white;
+}
+.hero:hover .text {
+  color: black;
+}
+.hero:hover .btn {
+  transform: translate(150%);
+}
+.hero .text {
+  transition: color 1s linear 1s;
+  width: 50%;
+  color: white;
+  padding: 55px 45px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.hero .text h2 {
+  font-size: 60px;
+  font-weight: 1000;
+}
+.btn {
+  display: inline;
+  padding: 10px 25px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  transition: background-color 500ms linear, transform 1s linear 1s;
+}
+.btn:hover {
+  background-color: black;
+}
+.hero .image {
+  width: 50%;
+}
+.hero .image img {
+  width: 100%;
+  height: auto;
+}
