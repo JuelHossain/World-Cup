@@ -1,0 +1,33 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(15, 14, 14);
+  color: white;
+  width: 240px;
+  border-radius: 8px;
+  padding: 20px;
+  gap: 20px;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.sidebar a {
+  color: white;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 5px;
+  transition: background-color 500ms, color 500ms;
+}
+.sidebar a:hover {
+  background-color: red;
+  color: white;
+}
+.sidebar .special {
+  background-color: red;
+  color: white;
+}
+.sidebar .special:hover {
+  background-color: white;
+  color: black;
+}
