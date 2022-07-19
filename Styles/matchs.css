@@ -1,0 +1,10 @@
+.matchs{
+
+}
+.matchs .image{
+    display: flex;
+    gap: 10px;
+}
+.matchs .image img{
+    width: 100%;
+}
