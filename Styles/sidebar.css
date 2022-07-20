@@ -20,11 +20,11 @@
   transition: background-color 500ms, color 500ms;
 }
 .sidebar a:hover {
-  background-color: red;
+  background-color: royalblue;
   color: white;
 }
 .sidebar .special {
-  background-color: red;
+  background-color: royalblue;
   color: white;
 }
 .sidebar .special:hover {
