@@ -31,3 +31,23 @@
   background-color: white;
   color: black;
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .sidebar {
+    flex-direction: row;
+    width: 100%;
+    background-color: white;
+  }
+  .sidebar a {
+    flex-grow: 1;
+    box-shadow: 0.2px 0.2px 1px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .sidebar {
+    width: 100%;
+  }
+  .sidebar a {
+    box-shadow: 0.2px 0.2px 1px;
+  }
+}

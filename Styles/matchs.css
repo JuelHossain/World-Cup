@@ -1,10 +1,38 @@
-.matchs{
+.matchs {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  box-shadow: 0.1px 0.1px 1px;
+  border-radius: 5px;
+  padding: 20px;
+}
+.matchs .image {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.matchs .image .flag{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 50%;
+}
+.matchs .image .flag img{
+width: 100%;
+}
+/* .matchs .image img {
+  flex: 1;
+} */
 
+.matchs .text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
 }
-.matchs .image{
-    display: flex;
-    gap: 10px;
+.matchs .text h4 {
+  font-size: 19px;
 }
-.matchs .image img{
-    width: 100%;
+.matchs .text p {
+  font-size: 15px;
 }

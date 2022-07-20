@@ -30,7 +30,7 @@
   font-weight: 1000;
 }
 .hero .text button {
-  display: flex;;
+  display: flex;
   align-items: center;
   gap: 10px;
   padding: 10px 25px;
@@ -49,4 +49,60 @@
 .hero .image img {
   width: 100%;
   height: auto;
+}
+
+/* for mini tablet  */
+@media only screen and (min-width: 721px) and (max-width: 860px) {
+  .hero .text h2 {
+    font-size: 40px;
+  }
+  .hero .text p {
+    font-size: 12px;
+  }
+  .hero .text {
+    padding: 35px 35px 0;
+  }
+}
+/* for bigger  tablet or laptop  */
+@media only screen and (min-width: 861px) and (max-width: 1001px) {
+  .hero .text h2 {
+    font-size: 50px;
+  }
+  .hero .text p {
+    font-size: 14px;
+  }
+  .hero .text {
+    padding: 45px 40px 0;
+  }
+}
+
+/* for mobile devicess  */
+@media only screen and (max-width: 720px) {
+  .hero {
+    flex-direction: column;
+    background-color: rgb(15, 14, 14);
+    border-radius: 25px;
+    padding: 25px 25px 0;
+    align-items: center;
+    gap: 35px;
+  }
+  .hero .text {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 10px 0 !important;
+  }
+  .hero .text h2 {
+    font-size: 35px;
+  }
+  .hero .text p {
+    font-size: 12px;
+  }
+  .hero .text {
+    padding: 35px 40px 0;
+  }
+  .hero .image {
+    width: 100%;
+  }
 }
